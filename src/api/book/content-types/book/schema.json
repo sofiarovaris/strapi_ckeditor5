@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "simple_text"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "blog_text"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
