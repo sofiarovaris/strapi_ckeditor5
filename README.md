@@ -1,57 +1,41 @@
-# 🚀 Getting started with Strapi
+# Strapi CKEditor 5 Tutorial
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+This project is a tutorial on configuring the CKEditor 5 plugin with Strapi, allowing for rich text editing capabilities within a Strapi application.
 
-### `develop`
+## Tutorial
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+The tutorial can be found on the [MosaicQ Tech Blog](https://mosaicq.com/tech/blog/ckeditor-strapi). It provides step-by-step instructions on setting up CKEditor 5 with Strapi and integrating it into your Strapi application.
 
-```
-npm run develop
-# or
-yarn develop
-```
+## Repository
 
-### `start`
+This repository contains the source code used in the tutorial. You can clone it and follow along with the tutorial to configure CKEditor 5 in your Strapi project.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+### Installation
 
-```
-npm run start
-# or
-yarn start
-```
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/sofiarovaris/strapi_ckeditor5.git
+    cd strapi_ckeditor5
+    ```
 
-### `build`
+2. **Install Dependencies**
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+3. **Run Strapi**
+    ```bash
+    npm run develop
+    ```
+    or
+    ```bash
+    yarn develop
+    ```
 
-```
-npm run build
-# or
-yarn build
-```
+## Usage
 
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Follow the tutorial on the [MosaicQ Tech Blog](https://mosaicq.com/tech/blog/ckeditor-strapi) to learn how to configure CKEditor 5 with Strapi and use it in your Strapi application.
